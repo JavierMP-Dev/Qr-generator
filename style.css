@@ -23,9 +23,17 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: center;
 }
 
+.contenido_centrar{
+
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .wrapper{
-    
-    height: 265px;
+    height: 530px;
     max-width: 410px;
     background: #074d52;
     border-radius: 7%;
