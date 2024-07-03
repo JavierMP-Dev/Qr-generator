@@ -10,22 +10,29 @@
 </head>
 <body>
     
-    <div class="wrapper">
-        <header>
-            <h1>QR code generator</h1>
-            <p>Pega tu URL o introduce el texto para crear tu codigo</p>
-        </header>
+    <div class="centrar">
+        <div class="wrapper">
+            <header>
+                <h1>Generador QR</h1>
+                <p>Pega tu URL o introduce el texto para crear tu codigo</p>
+            </header>
+            
         
-    
-        <div class="form">
-
-            <input type="text" name="" spellcheck="false" placeholder="Ingresa texto" id="">
-            <button type="button">Generar codigo</button>
-        </div>
-            <div class="qr-code">
-                <img src="" alt="qr-code">
+            <div class="form">
+                <div class="inputGroup">
+                    <input type="text"  required="" autocomplete="off" name="" spellcheck="false" placeholder="URL" id="">
+                    
+                </div>
+                <button type="button">Generar codigo</button>
+               
+                
             </div>
-        </div>
+                <div class="qr-code">
+                    <img src="" alt="Codigo" style="height: 150px;">
+                </div>
+            </div>
+    </div>
+
     
         <script src="script.js"></script>
         
