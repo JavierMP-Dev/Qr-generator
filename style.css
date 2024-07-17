@@ -110,3 +110,16 @@ header p{
   }
 /*fin clase input*/
 
+
+/*boton generar*/
+.btn_generar{
+  background-color: #26e7eda9;
+  cursor: pointer;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 15%;
+}
+
+.btn_generar:hover{
+  background-color: #20c0c5a9;
+}
