@@ -117,9 +117,9 @@ header p{
   cursor: pointer;
   width: 6rem;
   height: 3rem;
-  border-radius: 15%;
+  border-radius: 15px;
 }
 
 .btn_generar:hover{
-  background-color: #20c0c5a9;
+  background-color: #23d8dea9;
 }
