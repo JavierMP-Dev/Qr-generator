@@ -119,7 +119,7 @@ header p{
   height: 3rem;
   border-radius: 15px;
 }
-
+/*cambio de color cuando se pasa el mouse*/
 .btn_generar:hover{
   background-color: #2cde23a9;
 }
