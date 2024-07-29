@@ -113,7 +113,7 @@ header p{
 
 /*boton generar*/
 .btn_generar{
-  background-color: #26e7eda9;
+  background-color: #26f2f9a9;
   cursor: pointer;
   width: 6rem;
   height: 3rem;
@@ -121,5 +121,5 @@ header p{
 }
 /*cambio de color cuando se pasa el mouse*/
 .btn_generar:hover{
-  background-color: #2cde23a9;
+  background-color: #20c7cca9;
 }

@@ -3,7 +3,7 @@ qrInput = wrapper.querySelector(".form input"),
 generateBtn = wrapper.querySelector(".form button"),
 qrImg = wrapper.querySelector(".qr-code Img");
 let preValue;
-
+//aqui se hace el llamado a la  appi
 generateBtn.addEventListener("click", () => {
     let qrValue = qrInput.value.trim();
     if (!qrValue || preValue === qrValue) return;
